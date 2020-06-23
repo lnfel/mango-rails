@@ -1,18 +1,30 @@
-<nav class="flex items-center justify-between flex-wrap bg-green-500 p-6 mb-4">
-    <h1 class="font-semibold text-xl text-white tracking-tight">Rails with React + Tailwind</h1>
-</nav>
+<div class="container">
+  <div class="menu-wrap">
+    <nav class="menu">
+      <div class="icon-list">
+        <a href="#"><i class="fa fa-fw fa-star-o"></i><span>Favorites</span></a>
+      </div>
+    </nav>
 
-<div class="max-w-sm rounded overflow-hidden shadow-lg ml-4">
-  <img class="w-full" src="https://tailwindcss.com/img/card-top.jpg" alt="Sunset in the mountains">
-  <div class="px-6 py-4">
-    <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
-    <p class="text-gray-700 text-base">
-    <%= react_component("HelloWorld", { greeting: "Hello from react-rails." }) %>
-    </p>
+    <button class="close-button" id="close-button">Close Menu</button>
+    <div class="morph-shape" id="morph-shape" data-morph-open="M-1,0h101c0,0,0-1,0,395c0,404,0,405,0,405H-1V0z">
+      <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 100 800" preserveAspectRatio="none">
+        <path d="M-1,0h101c0,0-97.833,153.603-97.833,396.167C2.167,627.579,100,800,100,800H-1V0z"/>
+      </svg>
+    </div>
   </div>
-  <div class="px-6 py-4">
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#rails</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#react</span>
-    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">#tailwind</span>
+
+  <button class="menu-button" id="open-button">Open Menu</button>
+
+  <div class="content-wrap">
+    <main class="content" style="background-color: #fff;">
+      <header class="codrops-header">
+        <h1>Mango System</h1>
+      </header>
+      
+      <section>
+        
+      </section>
+    </main>
   </div>
 </div>
