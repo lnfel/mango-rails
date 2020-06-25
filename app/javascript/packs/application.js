@@ -8,6 +8,7 @@ require("turbolinks").start();
 require("@rails/activestorage").start();
 require("channels");
 require("stylesheets/application.scss");
+require("@fortawesome/fontawesome-free/js/all")
 //require("packs/snap.svg-min.js");
 //require("packs/classie.js");
 //require("packs/main3.js");

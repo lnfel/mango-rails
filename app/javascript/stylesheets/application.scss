@@ -9,6 +9,11 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+/*
+	Fontawesome 5
+*/
+@import '@fortawesome/fontawesome-free';
+
 
 html, body, .container-x, .content-wrap {
 	@apply overflow-hidden;
@@ -74,6 +79,10 @@ html, body, .container-x, .content-wrap {
 
 .menu-button:hover {
 	opacity: 0.6;
+}
+
+.menu-button:focus {
+	outline: none;
 }
 
 /* Close Button */
