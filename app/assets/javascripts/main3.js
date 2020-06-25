@@ -8,8 +8,8 @@
  * Copyright 2014, Codrops
  * http://www.codrops.com
  */
-//(function() {
-document.addEventListener("turbolinks:load", function() {
+(function() {
+//document.addEventListener("turbolinks:load", function() {
 
 	var bodyEl = document.body,
 		content = document.querySelector( '.content-wrap' ),
@@ -65,5 +65,5 @@ document.addEventListener("turbolinks:load", function() {
 
 	init();
 
-//})();
-});
+})();
+//});

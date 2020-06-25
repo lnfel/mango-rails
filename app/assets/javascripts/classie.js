@@ -11,8 +11,8 @@
 /*jshint browser: true, strict: true, undef: true */
 /*global define: false */
 
-//( function( window ) {
-document.addEventListener("turbolinks:load", function( window ) {
+( function( window ) {
+//document.addEventListener("turbolinks:load", function( window ) {
 
 'use strict';
 

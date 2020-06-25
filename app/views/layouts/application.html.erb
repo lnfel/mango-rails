@@ -7,12 +7,12 @@
 
     <%= stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <%#= javascript_pack_tag 'snap-svg-min' %>
+    <%= javascript_include_tag 'snap-svg-min', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
     <%= yield %>
-    <%#= javascript_pack_tag 'classie', 'data-turbolinks-track': 'reload' %>
-    <%#= javascript_pack_tag 'main3', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'classie', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'main3', 'data-turbolinks-track': 'reload' %>
   </body>
 </html>
